@@ -79,7 +79,7 @@ public class Main {
         System.out.println(count+" bejegyzésnek van kevesebb mint 15 like-ja");
 
 
-        list.sort((s1,s2) -> s1.GetLikok() - s2.GetLikok());
+        list.sort((s1,s2) -> s2.GetLikok() - s1.GetLikok());
 
 
         File myObj = new File("bejegyzesek_rendezet.txt");
